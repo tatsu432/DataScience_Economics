@@ -1,0 +1,12 @@
+CREATE TABLE `relation_ikea_station` ( `ikea_id` INT NOT NULL, `station_id` INT NOT NULL, `dist_station` DOUBLE NOT NULL, PRIMARY KEY (`ikea_id`, `station_id`)) ENGINE = InnoDB;
+CREATE TABLE `relation_ikea_ic` ( `ikea_id` INT NOT NULL, `ic_id` INT NOT NULL, `dist_ic` DOUBLE NOT NULL, PRIMARY KEY (`ikea_id`, `ic_id`)) ENGINE = InnoDB;
+CREATE TABLE `relation_ikea_lalaport` ( `ikea_id` INT NOT NULL, `lalaport_id` INT NOT NULL, `dist_lalaport` DOUBLE NOT NULL, PRIMARY KEY (`ikea_id`, `lalaport_id`)) ENGINE = InnoDB;
+CREATE TABLE `relation_ikea_nitori` ( `ikea_id` INT NOT NULL, `nitori_id` INT NOT NULL, `dist_nitori` DOUBLE NOT NULL, PRIMARY KEY (`ikea_id`, `nitori_id`)) ENGINE = InnoDB;
+CREATE TABLE `relation_ikea_decohome` ( `ikea_id` INT NOT NULL, `decohome_id` INT NOT NULL, `dist_decohome` DOUBLE NOT NULL, PRIMARY KEY (`ikea_id`, `decohome_id`)) ENGINE = InnoDB;
+CREATE TABLE `relation_ikea_all_station` ( `ikea_id` INT NOT NULL, `all_station_id` INT NOT NULL, `dist_all_station` DOUBLE NOT NULL, PRIMARY KEY (`ikea_id`, `all_station_id`)) ENGINE = InnoDB;
+CREATE TABLE `relation_costco_station` ( `costco_id` INT NOT NULL, `station_id` INT NOT NULL, `dist_station` DOUBLE NOT NULL, PRIMARY KEY (`costco_id`, `station_id`)) ENGINE = InnoDB;
+CREATE TABLE `relation_costco_ic` ( `costco_id` INT NOT NULL, `ic_id` INT NOT NULL, `dist_ic` DOUBLE NOT NULL, PRIMARY KEY (`costco_id`, `ic_id`)) ENGINE = InnoDB;
+CREATE TABLE `relation_costco_lalaport` ( `costco_id` INT NOT NULL, `lalaport_id` INT NOT NULL, `dist_lalaport` DOUBLE NOT NULL, PRIMARY KEY (`costco_id`, `lalaport_id`)) ENGINE = InnoDB;
+CREATE TABLE `relation_costco_nitori` ( `costco_id` INT NOT NULL, `nitori_id` INT NOT NULL, `dist_nitori` DOUBLE NOT NULL, PRIMARY KEY (`costco_id`, `nitori_id`)) ENGINE = InnoDB;
+CREATE TABLE `relation_costco_decohome` ( `costco_id` INT NOT NULL, `decohome_id` INT NOT NULL, `dist_decohome` DOUBLE NOT NULL, PRIMARY KEY (`costco_id`, `decohome_id`)) ENGINE = InnoDB;
+CREATE TABLE `relation_costco_all_station` ( `costco_id` INT NOT NULL, `all_station_id` INT NOT NULL, `dist_all_station` DOUBLE NOT NULL, PRIMARY KEY (`costco_id`, `all_station_id`)) ENGINE = InnoDB;
