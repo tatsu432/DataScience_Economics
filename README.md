@@ -7,17 +7,17 @@ with respect to
 
 Please chaeck in the following process
 
-- To scarape the geographical data, execute
+1. To scarape the geographical data, execute
 
-new1_scrape_place.ipynb
+- new1_scrape_place.ipynb
 
-- To visualize the data, execute
+2. To visualize the data, execute
 
-new2_1_visualize_Hub.ipynb
-new2_4_visualize_lalaport.ipynb
-new2_5_visualize_nitori.ipynb
-new2_6_visualize_decohome.ipynb
+- new2_1_visualize_Hub.ipynb
+- new2_4_visualize_lalaport.ipynb
+- new2_5_visualize_nitori.ipynb
+- new2_6_visualize_decohome.ipynb
 
-- To create the MySQL code, execute
+3. To create the MySQL code, execute
 
-new3_create_sql.ipynb
+- new3_create_sql.ipynb
