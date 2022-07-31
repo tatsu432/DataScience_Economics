@@ -6,17 +6,18 @@ with respect to
 2. competitors such as LALAPORT, NITORI, DECO HOME
 
 Please chaeck in the following process
-A. To scarape the geographical data
+
+- To scarape the geographical data, execute
 
 new1_scrape_place.ipynb
 
-B. To visualize the data
+- To visualize the data, execute
 
 new2_1_visualize_Hub.ipynb
 new2_4_visualize_lalaport.ipynb
 new2_5_visualize_nitori.ipynb
 new2_6_visualize_decohome.ipynb
 
-C. To create the MySQL code
+- To create the MySQL code, execute
 
 new3_create_sql.ipynb
